@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="log.css">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/3ab3195b97.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="login_container">
+        <div class="sub_login">
+            <div class="login_left">
+                <!-- <div class="logo">
+                    <img src="images/NETWORTY_1.png" alt="logo">
+                </div> -->
+                <div class="login_img">
+                    <video laysinline controls muted loop autoplay>
+                        <source src="images/skeleton.mp4" type="video/mp4">
+                    </video>
+                    <!-- <img src="images/bg.png" alt="login sign"> -->
+                </div>
+            </div>
+            <div class="login_right">
+                <div class="head">
+                    <h1>Hello</h1>
+                </div>
+                <div class="form_start">
+                    <form action="">
+                        <div class="loginIcon" >
+                            <span><i class="fa-solid fa-user"></i></span>
+                            <input type="text"  placeholder="user id">
+                        </div>
+                        <div class="loginPassword">
+                            <span><i class="fa-solid fa-lock"></i></span>
+                            <input type="password" placeholder="Password"  id="password">
+                            <span class="eye" onclick="myfunction()">
+                                <i id="hide1" class="fa-solid fa-eye"></i>
+                                <i id="hide2" class="fa-solid fa-eye-slash"></i>
+                            </span>
+                        </div>
+                        <div class="forget">
+                            <p>forget password</p>
+                            <span><i class="fa-solid fa-pen-to-square"></i></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="btn">
+                    <button>Log in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="log.js"></script>
+</body>
+</html>
